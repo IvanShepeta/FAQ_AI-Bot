@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Azure Documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/"
+  },
+  {
+    "id": 2,
+    "name": "Azure Portal Guide",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-portal/"
+  },
+  {
+    "id": 3,
+    "name": "Azure Developer Center",
+    "url": "https://learn.microsoft.com/en-us/azure/developer/"
+  },
+  {
+    "id": 4,
+    "name": "Azure Training – Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/azure/"
+  },
+  {
+    "id": 5,
+    "name": "Azure REST API Reference",
+    "url": "https://learn.microsoft.com/en-us/rest/api/azure/"
+  },
+  {
+    "id": 6,
+    "name": "Azure AI Services Overview",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-services/"
+  },
+  {
+    "id": 7,
+    "name": "Azure OpenAI Service",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/overview"
+  },
+  {
+    "id": 8,
+    "name": "Azure OpenAI On Your Data",
+    "url": "https://learn.microsoft.com/en-us/microsoft-cloud/dev/tutorials/openai-acs-msgraph/05-openai-on-your-data"
+  },
+  {
+    "id": 9,
+    "name": "Azure Bot Service Documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0"
+  },
+  {
+    "id": 10,
+    "name": "Azure Architecture Center",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/"
+  },
+  {
+    "id": 11,
+    "name": "Best Practices for Cloud Apps",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/index-best-practices"
+  },
+  {
+    "id": 12,
+    "name": "Microsoft Q&A – Azure",
+    "url": "https://learn.microsoft.com/en-us/answers/tags/133/azure"
+  },
+  {
+    "id": 13,
+    "name": "Azure Cognitive Services Docs",
+    "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": 14,
+    "name": "Azure Machine Learning Documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": 15,
+    "name": "Responsible AI in Azure",
+    "url": "https://learn.microsoft.com/en-us/azure/ai/responsible-ai/"
+  },
+  {
+    "id": 16,
+    "name": "Azure Data Factory Documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/data-factory/"
+  },
+  {
+    "id": 17,
+    "name": "Azure Key Vault Documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/key-vault/"
+  },
+  {
+    "id": 18,
+    "name": "Azure Monitor Documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/"
+  }
+]
