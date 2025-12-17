@@ -76,12 +76,38 @@ def get_azure_response(question: str) -> dict:
 """
 
     # Call the Gemini model with the constructed prompt
-    resp = client.models.generate_content(
+    response = client.models.generate_content(
         model=gemini_api_model,
         contents=prompt,
     )
 
-    return json.loads(resp.text)
+    # Try to parse JSON from the model's raw text output
+    try:
+        data = json.loads(response.text)
+    except (TypeError, json.JSONDecodeError):
+        # Fallback: return a generic error structure if parsing failed
+        return {
+            "answer": (
+                "Sorry, I was unable to parse a valid JSON answer from the AI model. "
+                "Please try rephrasing your question or ask again later."
+            ),
+            "references": [],
+        }
+
+    # Validation of the response structure
+    if not isinstance(data, dict):
+        return {
+            "answer": "The AI model returned an unexpected response format.",
+            "references": [],
+        }
+
+    answer = data.get("answer")
+    references = data.get("references")
+
+    return {
+        "answer": answer,
+        "references": references,
+    }
 
 
 # if __name__ == "__main__":
